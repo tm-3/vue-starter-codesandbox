@@ -1,11 +1,12 @@
 {
   "name": "vue-typescript",
   "version": "1.0.0",
-  "description": "Basic Vue template used to prototype.",
+  "description": "Basic Vue template used to prototype. Includes Vuetify.",
   "license": "MIT",
   "main": "./public/index.html",
   "scripts": {
-    "dev": "parcel ./public/index.html"
+    "dev": "parcel ./public/index.html",
+    "storybook": "start-storybook -p 6006 -c /sandbox/config/storybook --ci"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
@@ -17,6 +18,18 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^4.0.9",
+    "@storybook/addon-knobs": "^4.0.9",
+    "@storybook/addon-links": "^4.0.9",
+    "@storybook/react": "^4.0.9",
+    "@storybook/vue": "^4.0.9",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.10",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-knobs": "^3.4.1",
+    "@types/storybook__addon-links": "^3.3.3",
+    "@types/storybook__react": "^4.0.0",
+    "@types/storybook__vue": "^3.3.1",
     "@vue/component-compiler-utils": "^2.3.0",
     "@vue/test-utils": "^1.0.0-beta.26",
     "babel-core": "^6.26.3",
