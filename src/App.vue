@@ -19,9 +19,7 @@
     <v-content>
       <v-container fluid fill-height>
         <v-layout>
-          <v-flex>
-            <v-fade-transition> <router-view></router-view> </v-fade-transition>
-          </v-flex>
+          <v-flex> <grid-test></grid-test> </v-flex>
         </v-layout>
       </v-container>
     </v-content>
@@ -35,9 +33,12 @@
 <script lang="ts">
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import GridTest from './modules/gridTest/grid.vue';
 
 export default Vue.extend({
-  components: {},
+  components: {
+    GridTest,
+  },
   data() {
     return {
       drawer: false,
