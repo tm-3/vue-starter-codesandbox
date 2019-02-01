@@ -33,12 +33,8 @@
 <script lang="ts">
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
-import GridTest from './modules/gridTest/grid.vue';
 
 export default Vue.extend({
-  components: {
-    GridTest,
-  },
   data() {
     return {
       drawer: false,
