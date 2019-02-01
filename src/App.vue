@@ -19,7 +19,7 @@
     <v-content>
       <v-container fluid fill-height>
         <v-layout>
-          <v-flex> <grid-test></grid-test> </v-flex>
+          <v-flex></v-flex>
         </v-layout>
       </v-container>
     </v-content>
